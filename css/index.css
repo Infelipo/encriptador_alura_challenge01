@@ -1,0 +1,72 @@
+body {
+    background: #f3f5fc;    
+}
+
+h1 {
+    margin: 25px 50px;
+}
+
+.contenedor {
+    width: 940px;
+}
+
+.caja-ingreso {      
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.texto-entrada {
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #0a3871;
+    background-color: transparent;
+    border: none;
+}
+
+.botones {
+    margin-left: 100px;
+}
+
+.caja-salida {
+    background-color: #ffffff;    
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    height: 650px;
+}
+
+.directiva {
+    font-size: 13px;
+    margin-bottom: 8px;
+    margin-top: 62px;
+}
+
+.boton {
+    border: 1px solid #0a3871;
+    border-radius: 15px;
+    padding: 1.1em 6em;
+    margin-right: 2em;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0a3871;
+}
+
+#texto-salida {
+    background: transparent;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 17px;
+    border: none;
+}
+
+#boton-copiar {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+
