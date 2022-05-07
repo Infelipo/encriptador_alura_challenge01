@@ -52,6 +52,12 @@ h1 {
     font-size: 14px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #0a3871;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #0a3871;
+    color: #ffffff;
 }
 
 #texto-salida {
