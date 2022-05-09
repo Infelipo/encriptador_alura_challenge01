@@ -30,6 +30,8 @@ botonDesencriptar.addEventListener("click", function(evento) {
     var cajaSalida = document.querySelector("#texto-salida");
     cajaSalida.textContent = textoSalida;
 
+    mostrarBotonCopiar(botonCopiar, cajaSalida, imagen);
+
 });
 
 botonCopiar.addEventListener("click", function(evento) {
