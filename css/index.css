@@ -1,5 +1,6 @@
 body {
-    background: #f3f5fc;    
+    background: #f3f5fc;   
+    margin: 0; 
 }
 
 h1 {
@@ -30,12 +31,19 @@ h1 {
 .caja-salida {
     background-color: #ffffff;    
     position: absolute;
+    width: 250px;
+    height: 500px;
     top: 15px;
     right: 50px;
     border: none;
     padding: 10px;
     border-radius: 25px;
     height: 650px;
+}
+
+.imagen {
+    width: 250px;
+    margin-top: 150px;
 }
 
 .directiva {
@@ -66,13 +74,27 @@ h1 {
     margin-top: 25px;
     font-size: 17px;
     border: none;
+    display: none;
 }
 
 #boton-copiar {
+    position: relative;
     margin-top: 80px;
     margin-left: 20px;
     margin-bottom: 15px;
+    display: none;
 }
+
+footer {
+    background-color: #0a3871;
+    color: #ffffff;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px 0;
+    text-align: center;
+}
+
 
 
 

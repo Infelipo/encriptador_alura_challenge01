@@ -1,7 +1,7 @@
 var botonEncriptar = document.querySelector("#boton-encriptar");
 var botonDesencriptar = document.querySelector("#boton-desencriptar");
 var botonCopiar = document.querySelector("#boton-copiar");
-
+var imagen = document.querySelector("#imagen");
 
 botonEncriptar.addEventListener("click", function(evento) {
     evento.preventDefault();
@@ -13,6 +13,8 @@ botonEncriptar.addEventListener("click", function(evento) {
 
     var cajaSalida = document.querySelector("#texto-salida");
     cajaSalida.textContent = textoSalida;
+
+    mostrarBotonCopiar(botonCopiar, cajaSalida, imagen);
 
 });
 
@@ -135,7 +137,11 @@ function desencriptarTexto(texto) {
     return palabra;
 }
 
-
+function mostrarBotonCopiar(botonCopiar, cajaSalida) {
+    botonCopiar.style.display = "initial"; 
+    cajaSalida.style.display = "initial";
+    imagen.style.display = "none";
+}
 
 
 
